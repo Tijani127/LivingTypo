@@ -15,7 +15,6 @@ Text is rendered to an offscreen texture. Every bright pixel becomes a particle 
 | Type | Add characters |
 | Backspace | Delete last character |
 | R | Scatter particles randomly |
-| Space | Pause / resume motion |
 | Escape | Quit |
 
 ## Build
@@ -30,11 +29,3 @@ cmake --build build
 
 SFML is fetched automatically via CMake FetchContent.
 
-## Structure
-
-```
-├── CMakeLists.txt
-├── src/
-│   └── main.cpp        # entry, text sampling, particle physics, rendering
-└── README.md
-```
